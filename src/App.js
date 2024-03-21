@@ -30,7 +30,7 @@ function App() {
   };
   return (
     <>
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
       <Routes>
         {/* <Route path="/" element={<Home />} /> Home route */}
         <Route path="about" element={<TextForm />} /> {/* About route */}
